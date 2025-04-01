@@ -19,10 +19,10 @@ const Navbar = () => {
     }, [showMobileMenu]);
 
     return (
-        <div className=" absolute top-0 left-0 w-full z-0">
-          <div className="container flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-blue-700">
+        <div className="w-full ">
+          <div className="container flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-blue-500">
               
-                <img src={assets.logo} alt="" className='text-red-100'/>
+                <img src={assets.logo} alt="" className=''/>
 
               <ul className="hidden md:flex gap-7 text-white">
                   <a href="#Header" className="cursor-pointer hover:text-gray-400">Home</a>
