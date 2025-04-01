@@ -15,9 +15,9 @@ const Header = () => {
         transition={{ duration: 1.5 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{once:true}}
-        className='container text-center mx-auto py-4 px-6 md:px-20 py-32 text-blue-500'>
+        className='container text-center mx-auto py-4 px-6 md:px-20 py-32'>
               <h2 className='text-5xl sm:text-6xl md:text-[82px] 
-              inline-block max-w-3xl font-semibold pt-20'>Explore Homes that fit your Dreams</h2>
+              inline-block max-w-3xl font-semibold pt-20 text-blue-500'>Explore Homes that fit your Dreams</h2>
               <div className='space-x-6 mt-16'>
                   <a href="#Projects" className='border  border-blue-500 px-8 py-3 
                   rounded'>Projects</a>
