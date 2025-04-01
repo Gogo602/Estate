@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const Header = () => {
   return (
-      <div className='sm:min-h-screen h-[50vh] 
+      <div className='sm:min-h-screen h-[100vh] 
                     flex items-center w-full overflow-hidden' id='header'>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
