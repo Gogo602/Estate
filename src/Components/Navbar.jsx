@@ -20,11 +20,11 @@ const Navbar = () => {
 
     return (
         <div className=" absolute top-0 left-0 w-full z-0">
-          <div className="container  flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-blue-500">
+          <div className="container flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-white">
               
-                <img src={assets.logo} alt="" />
+                <img src={assets.logo} alt="" className='text-blue-500'/>
 
-              <ul className="hidden md:flex gap-7 text-white">
+              <ul className="hidden md:flex gap-7 text-blue-500">
                   <a href="#Header" className="cursor-pointer hover:text-gray-400">Home</a>
                   <a href="#About" className="cursor-pointer hover:text-gray-400">About</a>
                   <a href="#Projects" className="cursor-pointer hover:text-gray-400">Projects</a>
