@@ -20,7 +20,7 @@ const Navbar = () => {
 
     return (
         <div className="w-full ">
-          <div className="container flex justify-between items-center py-4 px-6 md:px-20  bg-blue-500">
+          <div className="flex justify-between w-full items-center py-4 px-6 md:px-20 lg:px-32 bg-blue-500">
               
                 <img src={assets.logo} alt="" className=''/>
 
