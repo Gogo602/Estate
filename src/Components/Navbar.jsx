@@ -20,11 +20,11 @@ const Navbar = () => {
 
     return (
         <div className=" absolute top-0 left-0 w-full z-0">
-          <div className="container flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-white">
+          <div className="container flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-blue-500">
               
-                <img src={assets.logo} alt="" className='text-blue-500'/>
+                <img src={assets.logo} alt="" className='text-white'/>
 
-              <ul className="hidden md:flex gap-7 text-blue-500">
+              <ul className="hidden md:flex gap-7 text-white">
                   <a href="#Header" className="cursor-pointer hover:text-gray-400">Home</a>
                   <a href="#About" className="cursor-pointer hover:text-gray-400">About</a>
                   <a href="#Projects" className="cursor-pointer hover:text-gray-400">Projects</a>
@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
                 
               
-                <button className="hidden md:block bg-white px-8 py-2 rounded-full">Sign up</button>
+                <button className="hidden md:block bg-white px-8 py-2 rounded-full text-blue-500">Sign up</button>
               <img onClick={()=> setShowMobileMenu(true)} src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' alt="" />
           </div>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
                 </div>
                 
               <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg 
-                            font-medium'>
+                            font-medium text-blue-500'>
                   <a onClick={()=> setShowMobileMenu(false)} href="#Header" className='px-4 rounded-full inline-block'>Home</a>
                   <a onClick={()=> setShowMobileMenu(false)} href="#About" className='px-4 rounded-full inline-block'>About</a>
                   <a onClick={()=> setShowMobileMenu(false)} href="#Projects" className='px-4 rounded-full inline-block'>Projects</a>
