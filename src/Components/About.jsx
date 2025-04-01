@@ -41,10 +41,10 @@ const About = () => {
                       </div>
                   </div>
                   
-                  <p className='md:my-2 mx-w-lg md:px-1 lg:px-12 lg:my-12'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  <p className='my-2 mx-w-lg md:px-1 lg:px-12 lg:my-12'>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                       Quod maxime nesciunt, ab maiores a commodi esse atque
                       provident velit accusantium corrupti dolores!</p>
-                  <button className='bg-blue-600 md:mx-1 lg:mx-12 text-white md:px-4 py-2 lg:px-8 rounded lg:my-0'>Learn More</button>
+                  <button className='bg-blue-600 md:mx-1 lg:mx-12 text-white px-4 py-2 lg:px-8 rounded lg:my-0'>Learn More</button>
                </div>
           </div> 
       </motion.div> 
