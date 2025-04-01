@@ -4,6 +4,7 @@ import Footer from "./Components/Footer"
 import Header from "./Components/Header"
 import Projects from "./Components/Projects"
 import Testimony from "./Components/Testimony"
+import Navbar from "./Components/Navbar"
 
 
 
@@ -11,6 +12,7 @@ import Testimony from "./Components/Testimony"
 const App = () => {
   return (
     <div className="w-full overflow-hidden">
+      <Navbar/>
       <Header />
       <About />
       <Projects />
