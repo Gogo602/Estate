@@ -4,8 +4,8 @@ import { motion } from "framer-motion"
 
 const Header = () => {
   return (
-      <div className='h-[90vh] sm:h[100vh]  
-                    flex items-center justify-center w-full ' id='header'>
+      <div className='h-[85vh] sm:h[100vh]  
+                    flex items-center justify-center w-full overflow-hidden' id='header'>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         transition={{ duration: 1.5 }}
