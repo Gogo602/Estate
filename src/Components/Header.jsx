@@ -4,10 +4,9 @@ import { motion } from "framer-motion"
 
 const Header = () => {
   return (
-      <div className='min-h-screen mb-4 bg-cover bg-center 
-                    flex items-center w-full overflow-hidden' style=
-                    {{backgroundImage: "url('src/assets/header_img.png')"}} id='header'>
-      <Navbar />
+      <div className='min-h-screen mb-4 
+                    flex items-center w-full overflow-hidden' id='header'>
+     
       
       <motion.div
         initial={{ opacity: 0, y: 100 }}
